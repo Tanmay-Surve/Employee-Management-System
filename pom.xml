@@ -1,0 +1,48 @@
+project xmlns=httpmaven.apache.orgPOM4.0.0
+         xmlnsxsi=httpwww.w3.org2001XMLSchema-instance
+         xsischemaLocation=httpmaven.apache.orgPOM4.0.0 httpmaven.apache.orgxsdmaven-4.0.0.xsd
+    modelVersion4.0.0modelVersion
+    groupIdcom.examplegroupId
+    artifactIdemployee-management-systemartifactId
+    version1.0-SNAPSHOTversion
+    packagingjarpackaging
+
+    properties
+        java.version17java.version
+        spring-boot.version3.0.0spring-boot.version
+    properties
+
+    dependencies
+        dependency
+            groupIdorg.springframework.bootgroupId
+            artifactIdspring-boot-starter-webartifactId
+        dependency
+        dependency
+            groupIdorg.springframework.bootgroupId
+            artifactIdspring-boot-starter-data-jpaartifactId
+        dependency
+        dependency
+            groupIdorg.springframework.bootgroupId
+            artifactIdspring-boot-starter-securityartifactId
+        dependency
+        dependency
+            groupIdmysqlgroupId
+            artifactIdmysql-connector-javaartifactId
+            scoperuntimescope
+        dependency
+        dependency
+            groupIdorg.springframework.bootgroupId
+            artifactIdspring-boot-starter-testartifactId
+            scopetestscope
+        dependency
+    dependencies
+
+    build
+        plugins
+            plugin
+                groupIdorg.springframework.bootgroupId
+                artifactIdspring-boot-maven-pluginartifactId
+            plugin
+        plugins
+    build
+project
